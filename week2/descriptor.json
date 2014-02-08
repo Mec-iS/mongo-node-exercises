@@ -1,0 +1,15 @@
+{
+    "_id" : "update()"
+    "name" : with() or without
+    "properties":
+        {
+           "type" : "Operator" or "Method" or "Option",
+           "CRUD" : null or "READ",
+           "SQL"  : null or "SELECT",
+           "callback_order" : "err, inserted", "err, removed",
+           "usage"  : "",
+           "example" : "",
+           "caveat" : "",
+           "features": [ ["atomical", true], ["multicrud" : true] ]
+        }
+}
